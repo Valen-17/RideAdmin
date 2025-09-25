@@ -1,0 +1,16 @@
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\bin\Debug\ProyectoHerramientas.exe.config
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\bin\Debug\ProyectoHerramientas.exe
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\bin\Debug\ProyectoHerramientas.pdb
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.csproj.AssemblyReference.cache
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.Form1.resources
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.frmConductores.resources
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.frmConfiguracion.resources
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.frmPagos.resources
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.frmReportes.resources
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.frmTaxis.resources
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.Properties.Resources.resources
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.csproj.GenerateResource.cache
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.csproj.CoreCompileInputs.cache
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.exe
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.pdb
+C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.exe.config
