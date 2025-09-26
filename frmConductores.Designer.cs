@@ -49,32 +49,31 @@
             this.btn_agregar = new System.Windows.Forms.Button();
             this.btn_actualizar = new System.Windows.Forms.Button();
             this.dataGridView_conductor = new System.Windows.Forms.DataGridView();
-            this.btn_buscar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
             this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.TipoDocumento = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cedula = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Telefono = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Taxi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btn_buscar = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.panel_agregar = new System.Windows.Forms.Panel();
             this.btn_cerrar = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
-            this.txt_dueño = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btn_guardar = new System.Windows.Forms.Button();
-            this.txt_estado = new System.Windows.Forms.TextBox();
-            this.txt_año = new System.Windows.Forms.TextBox();
-            this.txt_modelo = new System.Windows.Forms.TextBox();
-            this.txt_marca = new System.Windows.Forms.TextBox();
-            this.txt_placa = new System.Windows.Forms.TextBox();
+            this.txt_taxiAsignado = new System.Windows.Forms.TextBox();
+            this.txt_telefono = new System.Windows.Forms.TextBox();
+            this.txt_cedula = new System.Windows.Forms.TextBox();
+            this.txt_tipoDoc = new System.Windows.Forms.TextBox();
+            this.txt_nombre = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -231,7 +230,6 @@
             this.btn_conductores.TabIndex = 4;
             this.btn_conductores.Text = "Conductores";
             this.btn_conductores.UseVisualStyleBackColor = false;
-            
             // 
             // btn_taxis
             // 
@@ -349,38 +347,6 @@
             this.dataGridView_conductor.Size = new System.Drawing.Size(616, 235);
             this.dataGridView_conductor.TabIndex = 6;
             // 
-            // btn_buscar
-            // 
-            this.btn_buscar.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_buscar.Location = new System.Drawing.Point(388, 85);
-            this.btn_buscar.Name = "btn_buscar";
-            this.btn_buscar.Size = new System.Drawing.Size(126, 41);
-            this.btn_buscar.TabIndex = 5;
-            this.btn_buscar.Text = "Buscar";
-            this.btn_buscar.UseVisualStyleBackColor = false;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(157, 85);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(357, 41);
-            this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Buscar conductor";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(139, 27);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(385, 38);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Gestión de conductores";
-            // 
             // Nombre
             // 
             this.Nombre.HeaderText = "Nombre";
@@ -416,12 +382,44 @@
             this.Taxi.Name = "Taxi";
             this.Taxi.Width = 125;
             // 
+            // btn_buscar
+            // 
+            this.btn_buscar.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_buscar.Location = new System.Drawing.Point(388, 85);
+            this.btn_buscar.Name = "btn_buscar";
+            this.btn_buscar.Size = new System.Drawing.Size(126, 41);
+            this.btn_buscar.TabIndex = 5;
+            this.btn_buscar.Text = "Buscar";
+            this.btn_buscar.UseVisualStyleBackColor = false;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(157, 85);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(357, 41);
+            this.textBox1.TabIndex = 4;
+            this.textBox1.Text = "Buscar conductor";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(139, 27);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(385, 38);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Gestión de conductores";
+            // 
             // panel_agregar
             // 
             this.panel_agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
             this.panel_agregar.Controls.Add(this.btn_cerrar);
             this.panel_agregar.Controls.Add(this.panel4);
-            this.panel_agregar.Location = new System.Drawing.Point(990, 31);
+            this.panel_agregar.Location = new System.Drawing.Point(994, 31);
             this.panel_agregar.Name = "panel_agregar";
             this.panel_agregar.Size = new System.Drawing.Size(595, 498);
             this.panel_agregar.TabIndex = 10;
@@ -443,23 +441,33 @@
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(254)))));
             this.panel4.Controls.Add(this.label10);
             this.panel4.Controls.Add(this.label9);
-            this.panel4.Controls.Add(this.txt_dueño);
             this.panel4.Controls.Add(this.label8);
             this.panel4.Controls.Add(this.label7);
             this.panel4.Controls.Add(this.label6);
             this.panel4.Controls.Add(this.label5);
             this.panel4.Controls.Add(this.label4);
             this.panel4.Controls.Add(this.btn_guardar);
-            this.panel4.Controls.Add(this.txt_estado);
-            this.panel4.Controls.Add(this.txt_año);
-            this.panel4.Controls.Add(this.txt_modelo);
-            this.panel4.Controls.Add(this.txt_marca);
-            this.panel4.Controls.Add(this.txt_placa);
+            this.panel4.Controls.Add(this.txt_taxiAsignado);
+            this.panel4.Controls.Add(this.txt_telefono);
+            this.panel4.Controls.Add(this.txt_cedula);
+            this.panel4.Controls.Add(this.txt_tipoDoc);
+            this.panel4.Controls.Add(this.txt_nombre);
             this.panel4.Controls.Add(this.label2);
             this.panel4.Location = new System.Drawing.Point(26, 18);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(524, 463);
             this.panel4.TabIndex = 0;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(31, 141);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(107, 22);
+            this.label10.TabIndex = 27;
+            this.label10.Text = "documento";
             // 
             // label9
             // 
@@ -471,14 +479,6 @@
             this.label9.Size = new System.Drawing.Size(91, 22);
             this.label9.TabIndex = 26;
             this.label9.Text = "asignado";
-            // 
-            // txt_dueño
-            // 
-            this.txt_dueño.Location = new System.Drawing.Point(143, 343);
-            this.txt_dueño.Multiline = true;
-            this.txt_dueño.Name = "txt_dueño";
-            this.txt_dueño.Size = new System.Drawing.Size(331, 33);
-            this.txt_dueño.TabIndex = 25;
             // 
             // label8
             // 
@@ -546,45 +546,45 @@
             this.btn_guardar.Text = "Guardar";
             this.btn_guardar.UseVisualStyleBackColor = false;
             // 
-            // txt_estado
+            // txt_taxiAsignado
             // 
-            this.txt_estado.Location = new System.Drawing.Point(143, 289);
-            this.txt_estado.Multiline = true;
-            this.txt_estado.Name = "txt_estado";
-            this.txt_estado.Size = new System.Drawing.Size(331, 33);
-            this.txt_estado.TabIndex = 15;
+            this.txt_taxiAsignado.Location = new System.Drawing.Point(143, 289);
+            this.txt_taxiAsignado.Multiline = true;
+            this.txt_taxiAsignado.Name = "txt_taxiAsignado";
+            this.txt_taxiAsignado.Size = new System.Drawing.Size(331, 33);
+            this.txt_taxiAsignado.TabIndex = 15;
             // 
-            // txt_año
+            // txt_telefono
             // 
-            this.txt_año.Location = new System.Drawing.Point(143, 237);
-            this.txt_año.Multiline = true;
-            this.txt_año.Name = "txt_año";
-            this.txt_año.Size = new System.Drawing.Size(331, 33);
-            this.txt_año.TabIndex = 14;
+            this.txt_telefono.Location = new System.Drawing.Point(143, 237);
+            this.txt_telefono.Multiline = true;
+            this.txt_telefono.Name = "txt_telefono";
+            this.txt_telefono.Size = new System.Drawing.Size(331, 33);
+            this.txt_telefono.TabIndex = 14;
             // 
-            // txt_modelo
+            // txt_cedula
             // 
-            this.txt_modelo.Location = new System.Drawing.Point(143, 186);
-            this.txt_modelo.Multiline = true;
-            this.txt_modelo.Name = "txt_modelo";
-            this.txt_modelo.Size = new System.Drawing.Size(331, 33);
-            this.txt_modelo.TabIndex = 13;
+            this.txt_cedula.Location = new System.Drawing.Point(143, 186);
+            this.txt_cedula.Multiline = true;
+            this.txt_cedula.Name = "txt_cedula";
+            this.txt_cedula.Size = new System.Drawing.Size(331, 33);
+            this.txt_cedula.TabIndex = 13;
             // 
-            // txt_marca
+            // txt_tipoDoc
             // 
-            this.txt_marca.Location = new System.Drawing.Point(143, 130);
-            this.txt_marca.Multiline = true;
-            this.txt_marca.Name = "txt_marca";
-            this.txt_marca.Size = new System.Drawing.Size(331, 33);
-            this.txt_marca.TabIndex = 12;
+            this.txt_tipoDoc.Location = new System.Drawing.Point(143, 130);
+            this.txt_tipoDoc.Multiline = true;
+            this.txt_tipoDoc.Name = "txt_tipoDoc";
+            this.txt_tipoDoc.Size = new System.Drawing.Size(331, 33);
+            this.txt_tipoDoc.TabIndex = 12;
             // 
-            // txt_placa
+            // txt_nombre
             // 
-            this.txt_placa.Location = new System.Drawing.Point(143, 67);
-            this.txt_placa.Multiline = true;
-            this.txt_placa.Name = "txt_placa";
-            this.txt_placa.Size = new System.Drawing.Size(331, 33);
-            this.txt_placa.TabIndex = 11;
+            this.txt_nombre.Location = new System.Drawing.Point(143, 67);
+            this.txt_nombre.Multiline = true;
+            this.txt_nombre.Name = "txt_nombre";
+            this.txt_nombre.Size = new System.Drawing.Size(331, 33);
+            this.txt_nombre.TabIndex = 11;
             // 
             // label2
             // 
@@ -596,17 +596,6 @@
             this.label2.Size = new System.Drawing.Size(276, 29);
             this.label2.TabIndex = 10;
             this.label2.Text = "Registro de Conductor";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(31, 141);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(107, 22);
-            this.label10.TabIndex = 27;
-            this.label10.Text = "documento";
             // 
             // frmConductores
             // 
@@ -674,18 +663,17 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txt_dueño;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btn_guardar;
-        private System.Windows.Forms.TextBox txt_estado;
-        private System.Windows.Forms.TextBox txt_año;
-        private System.Windows.Forms.TextBox txt_modelo;
-        private System.Windows.Forms.TextBox txt_marca;
-        private System.Windows.Forms.TextBox txt_placa;
+        private System.Windows.Forms.TextBox txt_taxiAsignado;
+        private System.Windows.Forms.TextBox txt_telefono;
+        private System.Windows.Forms.TextBox txt_cedula;
+        private System.Windows.Forms.TextBox txt_tipoDoc;
+        private System.Windows.Forms.TextBox txt_nombre;
         private System.Windows.Forms.Label label2;
     }
 }
