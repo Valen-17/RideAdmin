@@ -45,14 +45,14 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txt_ingresos = new System.Windows.Forms.TextBox();
+            this.txt_gastos = new System.Windows.Forms.TextBox();
+            this.txt_añadirGasto = new System.Windows.Forms.TextBox();
+            this.btn_añadirGasto = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btn_añadirGasto = new System.Windows.Forms.Button();
-            this.txt_añadirGasto = new System.Windows.Forms.TextBox();
-            this.txt_gastos = new System.Windows.Forms.TextBox();
-            this.txt_ingresos = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -81,7 +81,7 @@
             this.panel1.Controls.Add(this.btn_inicio);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(2, 1);
+            this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(239, 546);
             this.panel1.TabIndex = 4;
@@ -269,6 +269,62 @@
             this.panel2.Size = new System.Drawing.Size(719, 466);
             this.panel2.TabIndex = 5;
             // 
+            // txt_ingresos
+            // 
+            this.txt_ingresos.BackColor = System.Drawing.Color.PaleGreen;
+            this.txt_ingresos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_ingresos.Location = new System.Drawing.Point(393, 232);
+            this.txt_ingresos.Multiline = true;
+            this.txt_ingresos.Name = "txt_ingresos";
+            this.txt_ingresos.Size = new System.Drawing.Size(175, 39);
+            this.txt_ingresos.TabIndex = 11;
+            this.txt_ingresos.Text = "0";
+            this.txt_ingresos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_gastos
+            // 
+            this.txt_gastos.BackColor = System.Drawing.Color.Salmon;
+            this.txt_gastos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_gastos.Location = new System.Drawing.Point(150, 232);
+            this.txt_gastos.Multiline = true;
+            this.txt_gastos.Name = "txt_gastos";
+            this.txt_gastos.Size = new System.Drawing.Size(157, 39);
+            this.txt_gastos.TabIndex = 10;
+            this.txt_gastos.Text = "0";
+            this.txt_gastos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txt_añadirGasto
+            // 
+            this.txt_añadirGasto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_añadirGasto.Location = new System.Drawing.Point(149, 92);
+            this.txt_añadirGasto.Multiline = true;
+            this.txt_añadirGasto.Name = "txt_añadirGasto";
+            this.txt_añadirGasto.Size = new System.Drawing.Size(296, 41);
+            this.txt_añadirGasto.TabIndex = 9;
+            this.txt_añadirGasto.Text = "Añadir gasto";
+            // 
+            // btn_añadirGasto
+            // 
+            this.btn_añadirGasto.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.btn_añadirGasto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_añadirGasto.Location = new System.Drawing.Point(434, 92);
+            this.btn_añadirGasto.Name = "btn_añadirGasto";
+            this.btn_añadirGasto.Size = new System.Drawing.Size(143, 41);
+            this.btn_añadirGasto.TabIndex = 8;
+            this.btn_añadirGasto.Text = "+ Añadir gasto";
+            this.btn_añadirGasto.UseVisualStyleBackColor = false;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(296, 161);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(115, 32);
+            this.label5.TabIndex = 7;
+            this.label5.Text = "Totales";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -301,62 +357,6 @@
             this.label3.Size = new System.Drawing.Size(353, 38);
             this.label3.TabIndex = 4;
             this.label3.Text = "Reportes económicos";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(296, 161);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(115, 32);
-            this.label5.TabIndex = 7;
-            this.label5.Text = "Totales";
-            // 
-            // btn_añadirGasto
-            // 
-            this.btn_añadirGasto.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.btn_añadirGasto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_añadirGasto.Location = new System.Drawing.Point(434, 66);
-            this.btn_añadirGasto.Name = "btn_añadirGasto";
-            this.btn_añadirGasto.Size = new System.Drawing.Size(143, 41);
-            this.btn_añadirGasto.TabIndex = 8;
-            this.btn_añadirGasto.Text = "+ Añadir gasto";
-            this.btn_añadirGasto.UseVisualStyleBackColor = false;
-            // 
-            // txt_añadirGasto
-            // 
-            this.txt_añadirGasto.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_añadirGasto.Location = new System.Drawing.Point(142, 65);
-            this.txt_añadirGasto.Multiline = true;
-            this.txt_añadirGasto.Name = "txt_añadirGasto";
-            this.txt_añadirGasto.Size = new System.Drawing.Size(296, 41);
-            this.txt_añadirGasto.TabIndex = 9;
-            this.txt_añadirGasto.Text = "Añadir gasto";
-            // 
-            // txt_gastos
-            // 
-            this.txt_gastos.BackColor = System.Drawing.Color.Salmon;
-            this.txt_gastos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_gastos.Location = new System.Drawing.Point(150, 232);
-            this.txt_gastos.Multiline = true;
-            this.txt_gastos.Name = "txt_gastos";
-            this.txt_gastos.Size = new System.Drawing.Size(157, 39);
-            this.txt_gastos.TabIndex = 10;
-            this.txt_gastos.Text = "0";
-            this.txt_gastos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txt_ingresos
-            // 
-            this.txt_ingresos.BackColor = System.Drawing.Color.PaleGreen;
-            this.txt_ingresos.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_ingresos.Location = new System.Drawing.Point(393, 232);
-            this.txt_ingresos.Multiline = true;
-            this.txt_ingresos.Name = "txt_ingresos";
-            this.txt_ingresos.Size = new System.Drawing.Size(175, 39);
-            this.txt_ingresos.TabIndex = 11;
-            this.txt_ingresos.Text = "0";
-            this.txt_ingresos.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // frmReportes
             // 
