@@ -230,6 +230,7 @@
             this.btn_conductores.TabIndex = 4;
             this.btn_conductores.Text = "Conductores";
             this.btn_conductores.UseVisualStyleBackColor = false;
+            this.btn_conductores.Click += new System.EventHandler(this.btn_conductores_Click);
             // 
             // btn_taxis
             // 

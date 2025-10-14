@@ -406,7 +406,7 @@
             this.panel_agregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
             this.panel_agregar.Controls.Add(this.btn_cerrar);
             this.panel_agregar.Controls.Add(this.panel4);
-            this.panel_agregar.Location = new System.Drawing.Point(995, 40);
+            this.panel_agregar.Location = new System.Drawing.Point(989, 58);
             this.panel_agregar.Name = "panel_agregar";
             this.panel_agregar.Size = new System.Drawing.Size(595, 444);
             this.panel_agregar.TabIndex = 11;

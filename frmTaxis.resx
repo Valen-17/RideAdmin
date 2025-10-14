@@ -1349,7 +1349,7 @@
   <data name="pictureBox3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAdoAAAHaCAYAAACn5IivAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAANxJJREFUeF7tnYlvFVeat/0n9F8wEksQq2IWGTAKmyAkggBpiI2AhGYVJCAIIMIi
+        DAAACwwBP0AiyAAANxJJREFUeF7tnYlvFVeat/0n9F8wEksQq2IWGTAKmyAkggBpiI2AhGYVJCAIIMIi
         EoIIEBFMxJJ8EOAzS8LSRGyRWaKwDWsw2AMGDxiQbexhc5P0jHp6Zr6ZOZ/eSh/39TnXvourbi33eaRH
         gPE9dapu3fd3azsnJwcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIMLU19cPevjwoXr8+PGniEHR
@@ -1590,7 +1590,7 @@
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAoAAAAKACAYAAAAMzckjAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAI5dJREFUeF7t3duvnVW9//G97/wTvDYeLjzEAkGhtkCh2FIpPVBaaIEWoRoU8QDU
+        DAAACwwBP0AiyAAAI5dJREFUeF7t3duvnVW9//G97/wTvDYeLjzEAkGhtkCh2FIpPVBaaIEWoRoU8QDU
         glWjO0arQkI0Hogh3IAmYIxuNMoVQTygghGKN7+73z/w+w/mL1OFVT5PC8961pjPM+Ycr1fyzjYKY601
         xlrj+e7Vrrn+678AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
         AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
@@ -2170,24 +2170,6 @@
         AAAAAAAAAKgc/j8rX5Wz/pvfcQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="Placa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Marca.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Modelo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Año.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Estado.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Dueño.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="Placa.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>

@@ -14,3 +14,18 @@ C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHe
 C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.exe
 C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.pdb
 C:\Users\Luz\source\repos\4to semestre\ProyectoHerramientas\obj\Debug\ProyectoHerramientas.exe.config
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\bin\Debug\ProyectoHerramientas.exe.config
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\bin\Debug\ProyectoHerramientas.exe
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\bin\Debug\ProyectoHerramientas.pdb
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.csproj.AssemblyReference.cache
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.Form1.resources
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.frmConductores.resources
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.frmConfiguracion.resources
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.frmPagos.resources
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.frmReportes.resources
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.frmTaxis.resources
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.Properties.Resources.resources
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.csproj.GenerateResource.cache
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.csproj.CoreCompileInputs.cache
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.exe
+C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.pdb
