@@ -53,6 +53,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txt_Ganancias = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -256,6 +258,8 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(237)))), ((int)(((byte)(246)))), ((int)(((byte)(254)))));
+            this.panel2.Controls.Add(this.txt_Ganancias);
+            this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.txt_ingresos);
             this.panel2.Controls.Add(this.txt_gastos);
             this.panel2.Controls.Add(this.txt_añadirGasto);
@@ -358,6 +362,28 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "Reportes económicos";
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(178, 295);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(365, 29);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "Ganancias (Ingresos - Gastos)";
+            // 
+            // txt_Ganancias
+            // 
+            this.txt_Ganancias.BackColor = System.Drawing.Color.LightYellow;
+            this.txt_Ganancias.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_Ganancias.Location = new System.Drawing.Point(270, 348);
+            this.txt_Ganancias.Multiline = true;
+            this.txt_Ganancias.Name = "txt_Ganancias";
+            this.txt_Ganancias.Size = new System.Drawing.Size(175, 39);
+            this.txt_Ganancias.TabIndex = 13;
+            this.txt_Ganancias.Text = "0";
+            this.txt_Ganancias.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // frmReportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -410,5 +436,7 @@
         private System.Windows.Forms.TextBox txt_añadirGasto;
         private System.Windows.Forms.TextBox txt_ingresos;
         private System.Windows.Forms.TextBox txt_gastos;
+        private System.Windows.Forms.TextBox txt_Ganancias;
+        private System.Windows.Forms.Label label6;
     }
 }
