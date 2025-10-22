@@ -61,16 +61,16 @@
             this.panel_contraseña = new System.Windows.Forms.Panel();
             this.btn_cerrarCon = new System.Windows.Forms.Button();
             this.panel = new System.Windows.Forms.Panel();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txt_confirmar = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
             this.txt_contraseña = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.txt_confirmar = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.rdb_ver = new System.Windows.Forms.RadioButton();
             this.rdb_ocultar = new System.Windows.Forms.RadioButton();
+            this.rdb_ver = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -440,7 +440,7 @@
             this.panel_contraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(48)))), ((int)(((byte)(63)))));
             this.panel_contraseña.Controls.Add(this.btn_cerrarCon);
             this.panel_contraseña.Controls.Add(this.panel);
-            this.panel_contraseña.Location = new System.Drawing.Point(984, 376);
+            this.panel_contraseña.Location = new System.Drawing.Point(267, 98);
             this.panel_contraseña.Name = "panel_contraseña";
             this.panel_contraseña.Size = new System.Drawing.Size(595, 380);
             this.panel_contraseña.TabIndex = 13;
@@ -474,6 +474,37 @@
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(524, 330);
             this.panel.TabIndex = 0;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.Black;
+            this.label10.Location = new System.Drawing.Point(30, 192);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(109, 22);
+            this.label10.TabIndex = 25;
+            this.label10.Text = "contraseña";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.Black;
+            this.label9.Location = new System.Drawing.Point(30, 171);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(97, 22);
+            this.label9.TabIndex = 24;
+            this.label9.Text = "Confirmar";
+            // 
+            // txt_confirmar
+            // 
+            this.txt_confirmar.Location = new System.Drawing.Point(175, 171);
+            this.txt_confirmar.Multiline = true;
+            this.txt_confirmar.Name = "txt_confirmar";
+            this.txt_confirmar.PasswordChar = '*';
+            this.txt_confirmar.Size = new System.Drawing.Size(299, 44);
+            this.txt_confirmar.TabIndex = 23;
             // 
             // label4
             // 
@@ -528,36 +559,17 @@
             this.label8.TabIndex = 10;
             this.label8.Text = "Contraseña";
             // 
-            // txt_confirmar
+            // rdb_ocultar
             // 
-            this.txt_confirmar.Location = new System.Drawing.Point(175, 171);
-            this.txt_confirmar.Multiline = true;
-            this.txt_confirmar.Name = "txt_confirmar";
-            this.txt_confirmar.PasswordChar = '*';
-            this.txt_confirmar.Size = new System.Drawing.Size(299, 44);
-            this.txt_confirmar.TabIndex = 23;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(30, 171);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(97, 22);
-            this.label9.TabIndex = 24;
-            this.label9.Text = "Confirmar";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Black;
-            this.label10.Location = new System.Drawing.Point(30, 192);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(109, 22);
-            this.label10.TabIndex = 25;
-            this.label10.Text = "contraseña";
+            this.rdb_ocultar.AutoSize = true;
+            this.rdb_ocultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdb_ocultar.Location = new System.Drawing.Point(34, 260);
+            this.rdb_ocultar.Name = "rdb_ocultar";
+            this.rdb_ocultar.Size = new System.Drawing.Size(92, 24);
+            this.rdb_ocultar.TabIndex = 27;
+            this.rdb_ocultar.TabStop = true;
+            this.rdb_ocultar.Text = "Ocultar";
+            this.rdb_ocultar.UseVisualStyleBackColor = true;
             // 
             // rdb_ver
             // 
@@ -570,18 +582,6 @@
             this.rdb_ver.TabStop = true;
             this.rdb_ver.Text = "Ver";
             this.rdb_ver.UseVisualStyleBackColor = true;
-            // 
-            // rdb_ocultar
-            // 
-            this.rdb_ocultar.AutoSize = true;
-            this.rdb_ocultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdb_ocultar.Location = new System.Drawing.Point(34, 260);
-            this.rdb_ocultar.Name = "rdb_ocultar";
-            this.rdb_ocultar.Size = new System.Drawing.Size(92, 24);
-            this.rdb_ocultar.TabIndex = 27;
-            this.rdb_ocultar.TabStop = true;
-            this.rdb_ocultar.Text = "Ocultar";
-            this.rdb_ocultar.UseVisualStyleBackColor = true;
             // 
             // frmConfiguracion
             // 

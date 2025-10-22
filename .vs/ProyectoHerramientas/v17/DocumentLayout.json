@@ -1,37 +1,57 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\",
+  "WorkspaceRootPath": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|c:\\users\\isabe\\onedrive\\escritorio\\universidad\\4to semestre 2025-2\\herramientas de programaci\u00F3n 2\\rideadmin\\frmconductores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmconductores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|c:\\users\\luz\\source\\repos\\4to semestre\\rideadmin\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmpagos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmtaxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmtaxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|c:\\users\\luz\\source\\repos\\4to semestre\\rideadmin\\ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:ingreso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|c:\\users\\luz\\source\\repos\\4to semestre\\rideadmin\\conexi\u00F3nbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:conexi\u00F3nbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|c:\\users\\luz\\source\\repos\\4to semestre\\rideadmin\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|c:\\users\\luz\\source\\repos\\4to semestre\\rideadmin\\usuarioconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:usuarioconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmconfiguracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|c:\\users\\luz\\source\\repos\\4to semestre\\rideadmin\\frmconductores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmconductores.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmtaxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmtaxis.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5ADCA102-5EC8-4ED9-B28F-EED666FADBA2}|ProyectoHerramientas.csproj|solutionrelative:frmreportes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,34 +78,91 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmConfiguracion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmConfiguracion.cs",
-              "RelativeDocumentMoniker": "frmConfiguracion.cs",
-              "ToolTip": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmConfiguracion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "frmConfiguracion.cs [Dise\u00F1o]",
+              "DocumentIndex": 4,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\Usuario.cs",
+              "RelativeDocumentMoniker": "Usuario.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\Usuario.cs",
+              "RelativeToolTip": "Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T17:04:10.524Z"
+              "WhenOpened": "2025-10-22T20:24:09.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioConexion.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\UsuarioConexion.cs",
+              "RelativeDocumentMoniker": "UsuarioConexion.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\UsuarioConexion.cs",
+              "RelativeToolTip": "UsuarioConexion.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBMAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T20:21:48.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Conexi\u00F3nBD.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\Conexi\u00F3nBD.cs",
+              "RelativeDocumentMoniker": "Conexi\u00F3nBD.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\Conexi\u00F3nBD.cs",
+              "RelativeToolTip": "Conexi\u00F3nBD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T19:43:51.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ingreso.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\Ingreso.cs",
+              "RelativeDocumentMoniker": "Ingreso.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\Ingreso.cs",
+              "RelativeToolTip": "Ingreso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T19:31:34.877Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Ingreso.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\Ingreso.cs",
+              "RelativeDocumentMoniker": "Ingreso.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\Ingreso.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Ingreso.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T18:42:43.229Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmConfiguracion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmConfiguracion.cs",
+              "RelativeDocumentMoniker": "frmConfiguracion.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmConfiguracion.cs [Dise\u00F1o]",
+              "RelativeToolTip": "frmConfiguracion.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-14T17:04:10.524Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "frmConductores.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmConductores.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmConductores.cs",
               "RelativeDocumentMoniker": "frmConductores.cs",
-              "ToolTip": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmConductores.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmConductores.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmConductores.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-14T03:30:10.221Z",
@@ -93,71 +170,77 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "frmReportes.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmReportes.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmReportes.cs",
               "RelativeDocumentMoniker": "frmReportes.cs",
-              "ToolTip": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmReportes.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmReportes.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmReportes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-25T20:03:22.777Z"
+              "WhenOpened": "2025-09-25T20:03:22.777Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "frmConfiguracion.cs",
-              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmConfiguracion.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmConfiguracion.cs",
               "RelativeDocumentMoniker": "frmConfiguracion.cs",
-              "ToolTip": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmConfiguracion.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmConfiguracion.cs",
               "RelativeToolTip": "frmConfiguracion.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-26T01:41:27.172Z"
+              "WhenOpened": "2025-09-26T01:41:27.172Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "frmPagos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmPagos.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmPagos.cs",
               "RelativeDocumentMoniker": "frmPagos.cs",
-              "ToolTip": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmPagos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmPagos.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmPagos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:29:54.28Z"
+              "WhenOpened": "2025-10-14T03:29:54.28Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "frmTaxis.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmTaxis.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmTaxis.cs",
               "RelativeDocumentMoniker": "frmTaxis.cs",
-              "ToolTip": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmTaxis.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmTaxis.cs [Dise\u00F1o]",
               "RelativeToolTip": "frmTaxis.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:30:06.147Z"
+              "WhenOpened": "2025-10-14T03:30:06.147Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:30:11.078Z"
+              "WhenOpened": "2025-10-14T03:30:11.078Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "frmReportes.cs",
-              "DocumentMoniker": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmReportes.cs",
+              "DocumentMoniker": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmReportes.cs",
               "RelativeDocumentMoniker": "frmReportes.cs",
-              "ToolTip": "C:\\Users\\isabe\\OneDrive\\Escritorio\\UNIVERSIDAD\\4to Semestre 2025-2\\Herramientas de programaci\u00F3n 2\\RideAdmin\\frmReportes.cs",
+              "ToolTip": "C:\\Users\\Luz\\source\\repos\\4to semestre\\RideAdmin\\frmReportes.cs",
               "RelativeToolTip": "frmReportes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T03:19:40.575Z"
+              "WhenOpened": "2025-10-14T03:19:40.575Z",
+              "EditorCaption": ""
             }
           ]
         }
