@@ -12,14 +12,12 @@ namespace ProyectoHerramientas
 {
     public partial class frmConfiguracion : Form
     {
-        public frmConfiguracion()
+
+        private string nombreUsuario;
+        public frmConfiguracion(string usuario)
         {
             InitializeComponent();
-        }
-
-        private void panel4_Paint(object sender, PaintEventArgs e)
-        {
-
+            nombreUsuario = usuario;
         }
 
         private void btn_cerrar_Click(object sender, EventArgs e)
@@ -54,32 +52,32 @@ namespace ProyectoHerramientas
 
         private void btn_inicio_Click(object sender, EventArgs e)
         {
-            Form1 inicio = new Form1();
+            Form1 inicio = new Form1(nombreUsuario);
             inicio.Show();
             this.Hide();
         }
         private void btn_taxis_Click(object sender, EventArgs e)
         {
-            frmTaxis taxis = new frmTaxis();
+            frmTaxis taxis = new frmTaxis(nombreUsuario);
             taxis.Show();
             this.Hide();
         }
         private void btn_conductores_Click(object sender, EventArgs e)
         {
-            frmConfiguracion configuracion = new frmConfiguracion();
-            configuracion.Show();
+            frmConductores conductores = new frmConductores (nombreUsuario);
+            conductores.Show();
             this.Hide();
         }
         private void btn_pagos_Click(object sender, EventArgs e)
         {
-            frmPagos pagos = new frmPagos();
+            frmPagos pagos = new frmPagos(nombreUsuario);
             pagos.Show();
             this.Hide();
         }
 
         private void btn_reportes_Click(object sender, EventArgs e)
         {
-            frmReportes reportes = new frmReportes();
+            frmReportes reportes = new frmReportes(nombreUsuario);
             reportes.Show();
             this.Hide();
         }

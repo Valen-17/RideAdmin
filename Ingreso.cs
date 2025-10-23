@@ -365,7 +365,44 @@ namespace ProyectoHerramientas
         //Iniciar sesión
         private void btn_ingresar_Click(object sender, EventArgs e)
         {
+            string usuario = txt_usuario.Text.ToLower().Trim();
+            string contrasena = txt_contraseña.Text.ToLower().Trim();
 
+            if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(contrasena))
+            {
+                MessageBox.Show("Por favor, complete todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+            
+            try
+            {
+                using (SqlConnection con = ConexionBD.Conectar())
+                {
+                    //Verificar el usuario y contraseña en la base de datos
+                    SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM Usuario WHERE NombreUsuario = @usuario AND Contrasena = @contrasena", con);
+                    cmd.Parameters.AddWithValue("@usuario", usuario);
+                    cmd.Parameters.AddWithValue("@contrasena", contrasena);
+
+                    int count = (int)cmd.ExecuteScalar();
+
+                    if (count > 0)
+                    {
+                        MessageBox.Show($"Bienvenido {usuario} ha iniciado sesión exitosamente ", "Inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        Form1 Homepage = new Form1(usuario); 
+                        Homepage.Show();
+                        this.Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Usuario o contraseña incorrectos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al iniciar sesión: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
     }
