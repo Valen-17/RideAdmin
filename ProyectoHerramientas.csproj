@@ -92,6 +92,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RecuperarContra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RecuperarContra.Designer.cs">
+      <DependentUpon>RecuperarContra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Usuario.cs" />
     <Compile Include="UsuarioConexion.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -124,6 +130,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RecuperarContra.resx">
+      <DependentUpon>RecuperarContra.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

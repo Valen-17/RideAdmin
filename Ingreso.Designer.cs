@@ -30,8 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ingreso));
             this.panel_ingresar = new System.Windows.Forms.Panel();
+            this.rdb_ocultar = new System.Windows.Forms.RadioButton();
+            this.rdb_ver = new System.Windows.Forms.RadioButton();
             this.lbl_registrar = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.lbl_recuperar = new System.Windows.Forms.Label();
             this.btn_ingresar = new System.Windows.Forms.Button();
             this.txt_contraseña = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -40,6 +42,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel_registrar = new System.Windows.Forms.Panel();
+            this.rdbOcultar = new System.Windows.Forms.RadioButton();
+            this.rdbVer = new System.Windows.Forms.RadioButton();
             this.txtCorreo = new System.Windows.Forms.TextBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.txtConfirmar = new System.Windows.Forms.TextBox();
@@ -53,10 +57,6 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btn_salir = new System.Windows.Forms.Button();
-            this.rdb_ver = new System.Windows.Forms.RadioButton();
-            this.rdb_ocultar = new System.Windows.Forms.RadioButton();
-            this.rdbVer = new System.Windows.Forms.RadioButton();
-            this.rdbOcultar = new System.Windows.Forms.RadioButton();
             this.panel_ingresar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -75,7 +75,7 @@
             this.panel_ingresar.Controls.Add(this.rdb_ocultar);
             this.panel_ingresar.Controls.Add(this.rdb_ver);
             this.panel_ingresar.Controls.Add(this.lbl_registrar);
-            this.panel_ingresar.Controls.Add(this.label2);
+            this.panel_ingresar.Controls.Add(this.lbl_recuperar);
             this.panel_ingresar.Controls.Add(this.btn_ingresar);
             this.panel_ingresar.Controls.Add(this.txt_contraseña);
             this.panel_ingresar.Controls.Add(this.pictureBox2);
@@ -87,6 +87,35 @@
             this.panel_ingresar.Name = "panel_ingresar";
             this.panel_ingresar.Size = new System.Drawing.Size(556, 416);
             this.panel_ingresar.TabIndex = 0;
+            // 
+            // rdb_ocultar
+            // 
+            this.rdb_ocultar.AutoSize = true;
+            this.rdb_ocultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdb_ocultar.ForeColor = System.Drawing.Color.White;
+            this.rdb_ocultar.Location = new System.Drawing.Point(410, 288);
+            this.rdb_ocultar.Name = "rdb_ocultar";
+            this.rdb_ocultar.Size = new System.Drawing.Size(92, 24);
+            this.rdb_ocultar.TabIndex = 19;
+            this.rdb_ocultar.TabStop = true;
+            this.rdb_ocultar.Text = "Ocultar";
+            this.rdb_ocultar.UseVisualStyleBackColor = true;
+            this.rdb_ocultar.Visible = false;
+            this.rdb_ocultar.CheckedChanged += new System.EventHandler(this.rdb_ocultar_CheckedChanged);
+            // 
+            // rdb_ver
+            // 
+            this.rdb_ver.AutoSize = true;
+            this.rdb_ver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdb_ver.ForeColor = System.Drawing.Color.White;
+            this.rdb_ver.Location = new System.Drawing.Point(410, 291);
+            this.rdb_ver.Name = "rdb_ver";
+            this.rdb_ver.Size = new System.Drawing.Size(59, 24);
+            this.rdb_ver.TabIndex = 18;
+            this.rdb_ver.TabStop = true;
+            this.rdb_ver.Text = "Ver";
+            this.rdb_ver.UseVisualStyleBackColor = true;
+            this.rdb_ver.CheckedChanged += new System.EventHandler(this.rdb_ver_CheckedChanged);
             // 
             // lbl_registrar
             // 
@@ -100,16 +129,16 @@
             this.lbl_registrar.Text = "Registrar nuevo usuario";
             this.lbl_registrar.Click += new System.EventHandler(this.lbl_registrar_Click);
             // 
-            // label2
+            // lbl_recuperar
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Cascadia Code", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(168, 337);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(210, 22);
-            this.label2.TabIndex = 16;
-            this.label2.Text = "Olvide mi contraseña";
+            this.lbl_recuperar.AutoSize = true;
+            this.lbl_recuperar.Font = new System.Drawing.Font("Cascadia Code", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_recuperar.ForeColor = System.Drawing.SystemColors.Control;
+            this.lbl_recuperar.Location = new System.Drawing.Point(168, 337);
+            this.lbl_recuperar.Name = "lbl_recuperar";
+            this.lbl_recuperar.Size = new System.Drawing.Size(210, 22);
+            this.lbl_recuperar.TabIndex = 16;
+            this.lbl_recuperar.Text = "Olvide mi contraseña";
             // 
             // btn_ingresar
             // 
@@ -210,6 +239,35 @@
             this.panel_registrar.Size = new System.Drawing.Size(556, 483);
             this.panel_registrar.TabIndex = 18;
             this.panel_registrar.Visible = false;
+            // 
+            // rdbOcultar
+            // 
+            this.rdbOcultar.AutoSize = true;
+            this.rdbOcultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbOcultar.ForeColor = System.Drawing.Color.White;
+            this.rdbOcultar.Location = new System.Drawing.Point(419, 377);
+            this.rdbOcultar.Name = "rdbOcultar";
+            this.rdbOcultar.Size = new System.Drawing.Size(92, 24);
+            this.rdbOcultar.TabIndex = 22;
+            this.rdbOcultar.TabStop = true;
+            this.rdbOcultar.Text = "Ocultar";
+            this.rdbOcultar.UseVisualStyleBackColor = true;
+            this.rdbOcultar.Visible = false;
+            this.rdbOcultar.CheckedChanged += new System.EventHandler(this.rdbOcultar_CheckedChanged);
+            // 
+            // rdbVer
+            // 
+            this.rdbVer.AutoSize = true;
+            this.rdbVer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rdbVer.ForeColor = System.Drawing.Color.White;
+            this.rdbVer.Location = new System.Drawing.Point(419, 377);
+            this.rdbVer.Name = "rdbVer";
+            this.rdbVer.Size = new System.Drawing.Size(59, 24);
+            this.rdbVer.TabIndex = 21;
+            this.rdbVer.TabStop = true;
+            this.rdbVer.Text = "Ver";
+            this.rdbVer.UseVisualStyleBackColor = true;
+            this.rdbVer.CheckedChanged += new System.EventHandler(this.rdbVer_CheckedChanged);
             // 
             // txtCorreo
             // 
@@ -356,64 +414,6 @@
             this.btn_salir.UseVisualStyleBackColor = false;
             this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
             // 
-            // rdb_ver
-            // 
-            this.rdb_ver.AutoSize = true;
-            this.rdb_ver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdb_ver.ForeColor = System.Drawing.Color.White;
-            this.rdb_ver.Location = new System.Drawing.Point(410, 291);
-            this.rdb_ver.Name = "rdb_ver";
-            this.rdb_ver.Size = new System.Drawing.Size(59, 24);
-            this.rdb_ver.TabIndex = 18;
-            this.rdb_ver.TabStop = true;
-            this.rdb_ver.Text = "Ver";
-            this.rdb_ver.UseVisualStyleBackColor = true;
-            this.rdb_ver.CheckedChanged += new System.EventHandler(this.rdb_ver_CheckedChanged);
-            // 
-            // rdb_ocultar
-            // 
-            this.rdb_ocultar.AutoSize = true;
-            this.rdb_ocultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdb_ocultar.ForeColor = System.Drawing.Color.White;
-            this.rdb_ocultar.Location = new System.Drawing.Point(410, 288);
-            this.rdb_ocultar.Name = "rdb_ocultar";
-            this.rdb_ocultar.Size = new System.Drawing.Size(92, 24);
-            this.rdb_ocultar.TabIndex = 19;
-            this.rdb_ocultar.TabStop = true;
-            this.rdb_ocultar.Text = "Ocultar";
-            this.rdb_ocultar.UseVisualStyleBackColor = true;
-            this.rdb_ocultar.Visible = false;
-            this.rdb_ocultar.CheckedChanged += new System.EventHandler(this.rdb_ocultar_CheckedChanged);
-            // 
-            // rdbVer
-            // 
-            this.rdbVer.AutoSize = true;
-            this.rdbVer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbVer.ForeColor = System.Drawing.Color.White;
-            this.rdbVer.Location = new System.Drawing.Point(419, 377);
-            this.rdbVer.Name = "rdbVer";
-            this.rdbVer.Size = new System.Drawing.Size(59, 24);
-            this.rdbVer.TabIndex = 21;
-            this.rdbVer.TabStop = true;
-            this.rdbVer.Text = "Ver";
-            this.rdbVer.UseVisualStyleBackColor = true;
-            this.rdbVer.CheckedChanged += new System.EventHandler(this.rdbVer_CheckedChanged);
-            // 
-            // rdbOcultar
-            // 
-            this.rdbOcultar.AutoSize = true;
-            this.rdbOcultar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rdbOcultar.ForeColor = System.Drawing.Color.White;
-            this.rdbOcultar.Location = new System.Drawing.Point(419, 377);
-            this.rdbOcultar.Name = "rdbOcultar";
-            this.rdbOcultar.Size = new System.Drawing.Size(92, 24);
-            this.rdbOcultar.TabIndex = 22;
-            this.rdbOcultar.TabStop = true;
-            this.rdbOcultar.Text = "Ocultar";
-            this.rdbOcultar.UseVisualStyleBackColor = true;
-            this.rdbOcultar.Visible = false;
-            this.rdbOcultar.CheckedChanged += new System.EventHandler(this.rdbOcultar_CheckedChanged);
-            // 
             // Ingreso
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -452,7 +452,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.TextBox txt_usuario;
         private System.Windows.Forms.TextBox txt_contraseña;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label lbl_recuperar;
         private System.Windows.Forms.Button btn_ingresar;
         private System.Windows.Forms.Label lbl_registrar;
         private System.Windows.Forms.Panel panel_registrar;
