@@ -417,12 +417,9 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
-# Ignorar archivos temporales de Visual Studio
+# Archivos de configuración local de Visual Studio
 .vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
-# Archivos de compilación
-bin/
-obj/
