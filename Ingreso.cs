@@ -405,5 +405,12 @@ namespace ProyectoHerramientas
             }
         }
 
+        // Boton cambiar contraseña
+        private void lbl_CambiarContra_Click(object sender, EventArgs e)
+        {
+            frmCambiarContra contra = new frmCambiarContra();
+            contra.Show();
+            this.Hide();
+        }
     }
 }

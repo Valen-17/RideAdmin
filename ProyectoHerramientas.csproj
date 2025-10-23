@@ -54,6 +54,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmCambiarContra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCambiarContra.Designer.cs">
+      <DependentUpon>frmCambiarContra.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmConductores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     <Compile Include="UsuarioConexion.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCambiarContra.resx">
+      <DependentUpon>frmCambiarContra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmConductores.resx">
       <DependentUpon>frmConductores.cs</DependentUpon>
