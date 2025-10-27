@@ -423,3 +423,6 @@ FodyWeavers.xsd
 *.user
 *.userosscache
 *.sln.docstates
+
+# Ignorar configuración local de VS Code
+.vscode/
