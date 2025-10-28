@@ -63,7 +63,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.btn_salir = new System.Windows.Forms.Button();
-            this.btn_volver = new System.Windows.Forms.Button();
+            this.picturebox_volver = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -79,6 +79,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturebox_volver)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -469,11 +470,11 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(905, 33);
+            this.label8.Location = new System.Drawing.Point(856, 33);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(88, 22);
             this.label8.TabIndex = 20;
-            this.label8.Text = "25/09/25";
+            this.label8.Text = "06/11/25";
             // 
             // btn_salir
             // 
@@ -489,19 +490,17 @@
             this.btn_salir.UseVisualStyleBackColor = false;
             this.btn_salir.Click += new System.EventHandler(this.btn_salir_Click);
             // 
-            // btn_volver
+            // picturebox_volver
             // 
-            this.btn_volver.BackColor = System.Drawing.Color.Gray;
-            this.btn_volver.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_volver.ForeColor = System.Drawing.Color.Black;
-            this.btn_volver.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.btn_volver.Location = new System.Drawing.Point(698, 473);
-            this.btn_volver.Name = "btn_volver";
-            this.btn_volver.Size = new System.Drawing.Size(146, 43);
-            this.btn_volver.TabIndex = 21;
-            this.btn_volver.Text = "Volver";
-            this.btn_volver.UseVisualStyleBackColor = false;
-            this.btn_volver.Click += new System.EventHandler(this.btn_volver_Click);
+            this.picturebox_volver.BackColor = System.Drawing.Color.Transparent;
+            this.picturebox_volver.Image = ((System.Drawing.Image)(resources.GetObject("picturebox_volver.Image")));
+            this.picturebox_volver.Location = new System.Drawing.Point(950, 27);
+            this.picturebox_volver.Name = "picturebox_volver";
+            this.picturebox_volver.Size = new System.Drawing.Size(47, 34);
+            this.picturebox_volver.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.picturebox_volver.TabIndex = 22;
+            this.picturebox_volver.TabStop = false;
+            this.picturebox_volver.Click += new System.EventHandler(this.picturebox_volver_Click);
             // 
             // Form1
             // 
@@ -509,7 +508,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(15)))), ((int)(((byte)(33)))), ((int)(((byte)(49)))));
             this.ClientSize = new System.Drawing.Size(1025, 544);
-            this.Controls.Add(this.btn_volver);
+            this.Controls.Add(this.picturebox_volver);
             this.Controls.Add(this.btn_salir);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -523,7 +522,6 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
@@ -543,6 +541,7 @@
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picturebox_volver)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -584,7 +583,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btn_salir;
-        private System.Windows.Forms.Button btn_volver;
+        private System.Windows.Forms.PictureBox picturebox_volver;
     }
 }
 

@@ -366,42 +366,53 @@ namespace ProyectoHerramientas
         private void btn_ingresar_Click(object sender, EventArgs e)
         {
             string usuario = txt_usuario.Text.ToLower().Trim();
-            string contrasena = txt_contraseña.Text.ToLower().Trim();
+            string contrasena = txt_contraseña.Text.Trim();
 
             if (string.IsNullOrEmpty(usuario) || string.IsNullOrEmpty(contrasena))
             {
                 MessageBox.Show("Por favor, complete todos los campos.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-            
-            try
+            if (usuario == "admin" && contrasena == "admin1234")
             {
-                using (SqlConnection con = ConexionBD.Conectar())
+                MessageBox.Show("Bienvenido Admin ha iniciado sesión correctamente", "Inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                frmAdmin adminForm = new frmAdmin();
+                adminForm.Show();
+                this.Hide();
+            }
+            else
+            {
+
+                try
                 {
-                    //Verificar el usuario y contraseña en la base de datos
-                    SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM Usuario WHERE NombreUsuario = @usuario AND Contrasena = @contrasena", con);
-                    cmd.Parameters.AddWithValue("@usuario", usuario);
-                    cmd.Parameters.AddWithValue("@contrasena", contrasena);
-
-                    int count = (int)cmd.ExecuteScalar();
-
-                    if (count > 0)
+                    using (SqlConnection con = ConexionBD.Conectar())
                     {
-                        MessageBox.Show($"Bienvenido {usuario} ha iniciado sesión exitosamente ", "Inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        //Verificar el usuario y contraseña en la base de datos
+                        SqlCommand cmd = new SqlCommand("SELECT COUNT(*) FROM Usuario WHERE NombreUsuario = @usuario AND Contrasena = @contrasena", con);
+                        cmd.Parameters.AddWithValue("@usuario", usuario);
+                        cmd.Parameters.AddWithValue("@contrasena", contrasena);
 
-                        Form1 Homepage = new Form1(usuario); 
-                        Homepage.Show();
-                        this.Hide();
-                    }
-                    else
-                    {
-                        MessageBox.Show("Usuario o contraseña incorrectos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        int count = (int)cmd.ExecuteScalar();
+
+                        if (count > 0)
+                        {
+                            MessageBox.Show($"Bienvenido {usuario} ha iniciado sesión exitosamente ", "Inicio de sesión", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                            Form1 Homepage = new Form1(usuario);
+                            Homepage.Show();
+                            this.Hide();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Usuario o contraseña incorrectos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        }
                     }
                 }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Error al iniciar sesión: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Error al iniciar sesión: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 

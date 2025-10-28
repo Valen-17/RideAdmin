@@ -60,16 +60,11 @@ namespace ProyectoHerramientas
             Application.Exit();
         }
 
-        private void btn_volver_Click(object sender, EventArgs e)
+        private void picturebox_volver_Click(object sender, EventArgs e)
         {
             Ingreso inicio = new Ingreso();
             inicio.Show();
             this.Hide();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

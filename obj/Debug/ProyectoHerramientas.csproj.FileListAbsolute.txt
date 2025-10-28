@@ -48,3 +48,5 @@ C:\Users\Luz\source\repos\4to semestre\RideAdmin\obj\Debug\ProyectoHerramientas.
 C:\Users\Luz\source\repos\4to semestre\RideAdmin\obj\Debug\ProyectoHerramientas.pdb
 C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.Ingreso.resources
 C:\Users\isabe\OneDrive\Escritorio\UNIVERSIDAD\4to Semestre 2025-2\Herramientas de programación 2\RideAdmin\obj\Debug\ProyectoHerramientas.frmCambiarContra.resources
+C:\Users\Luz\source\repos\4to semestre\RideAdmin\obj\Debug\ProyectoHerramientas.frmCambiarContra.resources
+C:\Users\Luz\source\repos\4to semestre\RideAdmin\obj\Debug\ProyectoHerramientas.frmAdmin.resources
